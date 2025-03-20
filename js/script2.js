@@ -8,5 +8,4 @@ function calcularIMC() {
   var resultadoElement = document.getElementById('resultado');
   
   resultadoElement.innerHTML = `Olá ${nome}, ! Seu IMC é: ${imc.toFixed(2)}.`
-
 }
